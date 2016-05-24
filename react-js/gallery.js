@@ -4,10 +4,31 @@
 
 import React from 'react';
 
-function Gallery() {
-        //var pics =
+var Gallery = React.createClass({
+    //var pics =
+    render : function() {
         return (
             <div className="gallery">
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/550x550"/>
+                    <h5>My Site</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/550x550"/>
+                    <h5>My Site</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/550x550"/>
+                    <h5>My Site</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/550x550"/>
+                    <h5>My Site</h5>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/550x550"/>
+                    <h5>My Site</h5>
+                </div>
                 <div class="column">
                     <img class="thumbnail" src="http://placehold.it/550x550"/>
                     <h5>My Site</h5>
@@ -19,5 +40,5 @@ function Gallery() {
             </div>
         )
     }
-
+});
 export default Gallery;
