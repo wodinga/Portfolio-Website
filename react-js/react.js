@@ -33,8 +33,55 @@ var App = React.createClass({
                                     <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.</p>
                                 </div>
                             </div>
-                            <div id="Gallery" className="row small-up-2 medium-up-3 large-up-4">
-
+                            <div className="row small-up-2 medium-up-3 large-up-4">
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
+                                <div className="column">
+                                    <img className="thumbnail" src="http://placehold.it/550x550" />
+                                        <h5>My Site</h5>
+                                </div>
                             </div>
                             <hr />
                                 <div className="row">
