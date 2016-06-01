@@ -1,8 +1,8 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
-  "main": "gulpfile.js",
+  "name": "kloiy-portfolio-site",
+  "version": "0.0.1",
+  "description": "Kloiy's portfolio website and my react.js playground.",
+  "main": "server.js",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
@@ -10,7 +10,7 @@
     "gulp-sass": "^2.1.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "nodemon ./bin/www",
     "build": "gulp sass"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/zurb/foundation-sites/issues",
     "email": "foundation@zurb.com"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Rafael Garcia <1337technomage@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -31,6 +31,13 @@
     "gulp-autoprefixer": "^3.1.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "body-parser": "~1.10.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.0",
+    "jade": "~1.9.0",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
   }
 }
