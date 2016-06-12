@@ -34,7 +34,7 @@ var App = React.createClass({
                                 </div>
                             </div>
                             <div className="row small-up-2 medium-up-3 large-up-4">
-                                <Gallery src={__src}/>
+                                <Gallery src={__src} list={__list}/>
                             </div>
                             <hr />
                                 <div className="row">
