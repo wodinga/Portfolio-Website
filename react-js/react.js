@@ -34,7 +34,7 @@ var App = React.createClass({
                                 </div>
                             </div>
                             <div className="row small-up-2 medium-up-3 large-up-4">
-                                <Gallery />
+                                <Gallery src={__src}/>
                             </div>
                             <hr />
                                 <div className="row">
@@ -69,6 +69,7 @@ var App = React.createClass({
     }
 });
 
+// export default App;
 ReactDOM.render(
     <App />,
     document.getElementById('app')

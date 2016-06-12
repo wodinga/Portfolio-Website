@@ -20,9 +20,8 @@ var ImageList = React.createClass({
     render : function() {
         return (
             <div className="imgList">
-                {this.props.list.map(function (val) {
-                    return <Img src="http://placehold.it/550x550"/>
-                })}
+                    <Img src={this.props.src}/>
+
             </div>
 
         )
@@ -35,7 +34,7 @@ var Gallery = React.createClass({
     render : function() {
         return (
             <div className="gallery">
-                <ImageList list={[1,2,3,4,5,6,7,8,9,10,11,12]}/>
+                <ImageList src={this.props.src}/>
             </div>
         );
     }
